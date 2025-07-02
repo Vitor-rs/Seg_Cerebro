@@ -1,0 +1,70 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "Segundo Cerebro PKM"
+        }
+    ],
+    "settings": {
+        "dendron.rootDir": "vault",
+        "files.autoSave": "onFocusChange",
+        "pasteImage.path": "${currentFileDir}/assets",
+        "pasteImage.prefix": "./",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "editor.tabCompletion": "on",
+        "dendron.enablePreviewV2": true,
+        "files.associations": {
+            "*.md": "markdown"
+        },
+        "workbench.colorTheme": "Default Dark+",
+        "editor.minimap.enabled": false,
+        "workbench.editor.enablePreview": false,
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/tmp": true,
+            "**/.dendron.cache.*": true,
+            "**/config/**": true,
+            "**/scripts/**": true
+        },
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/.dendron.cache.*": true,
+            "**/.dendron.port": true,
+            "**/.next": true,
+            "**/node_modules": true
+        },
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/*/**": true,
+            "**/.dendron.cache/**": true
+        },
+        "explorer.fileNesting.enabled": true,
+        "explorer.fileNesting.expand": false,
+        "explorer.fileNesting.patterns": {
+            "*.md": "${capture}.assets"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron",
+            "ms-vscode.vscode-json",
+            "yzhang.markdown-all-in-one",
+            "shd101wyy.markdown-preview-enhanced",
+            "bierner.markdown-mermaid",
+            "streetsidesoftware.code-spell-checker"
+        ],
+        "unwantedRecommendations": [
+            "ms-vscode.vscode-typescript-next"
+        ]
+    }
+}

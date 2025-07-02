@@ -1,0 +1,13 @@
+[
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Format Markdown with markdownlint",
+    "when": "editorLangId == markdown"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorLangId == markdown"
+  }
+]

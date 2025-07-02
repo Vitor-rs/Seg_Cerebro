@@ -1,0 +1,25 @@
+{
+    "name": "seg-cerebro-pkm",
+    "version": "1.0.0",
+    "description": "Sistema PKM com Dendron - Configurações de Linting e Formatação",
+    "scripts": {
+        "lint:md": "markdownlint **/*.md --ignore node_modules",
+        "lint:md:fix": "markdownlint **/*.md --fix --ignore node_modules",
+        "format:md": "markdownlint **/*.md --fix --ignore node_modules",
+        "format:current": "markdownlint --fix",
+        "setup": "npm install && echo 'Configuração concluída! Use npm run format:md para formatar todos os arquivos Markdown.'"
+    },
+    "devDependencies": {
+        "markdownlint-cli": "^0.37.0",
+        "prettier": "^3.0.0"
+    },
+    "keywords": [
+        "pkm",
+        "dendron",
+        "markdown",
+        "linting",
+        "formatting"
+    ],
+    "author": "",
+    "license": "MIT"
+}
