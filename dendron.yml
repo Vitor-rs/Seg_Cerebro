@@ -5,20 +5,29 @@ commands:
     lookup:
         note:
             selectionMode: extract
-            confirmVaultOnCreate: true
+            confirmVaultOnCreate: false
+            vaultSelectionModeOnCreate: smart
             leaveTrace: false
             bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
+    randomNote:
+        include:
+            - "*"
     insertNoteLink:
         aliasMode: none
+        enableMultiSelect: false
+    insertNoteIndex:
+        enableMarker: false
     copyNoteLink:
         aliasMode: title
+    templateHierarchy: templates
 workspace:
+    enableAutoFoldFrontmatter: true
     vaults:
-        -
-            fsPath: vault
-            name: vault
+        - fsPath: vault
+          name: vault
     journal:
-        dailyDomain: journal.daily
+        dailyDomain: pkm.journal.daily
         name: journal
         dateFormat: y.MM.dd
         addBehavior: childOfDomain
@@ -26,14 +35,42 @@ workspace:
         name: scratch
         dateFormat: y.MM.dd.HHmmss
         addBehavior: asOwnDomain
-    enableFullHierarchyNoteTitle: false
-    enableAutoCreateOnDefinition: false
+    task:
+        name: task
+        dateFormat: y.MM.dd
+        addBehavior: asOwnDomain
+        createTaskSelectionType: selection2link
+        statusSymbols:
+            "": " "
+            wip: "/"
+            done: x
+            assigned: a
+            moved: ">"
+            blocked: b
+            delegated: d
+            dropped: D
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: false
+        taskCompleteStatus:
+            - done
+            - x
+    graph:
+        zoomSpeed: 1
+        createStub: false
+    enableAutoCreateOnDefinition: true
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
     enableUserTags: true
     enableHashTags: true
+    workspaceVaultSyncMode: noCommit
+    dendronVersion: "0.124.0"
     maxPreviewsCached: 10
     maxNoteLength: 204800
+    enableEditorDecorations: true
+    enableFullHierarchyNoteTitle: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -50,16 +87,15 @@ publishing:
     enableFrontmatterTags: true
     enableHashesForFMTags: true
     enablePrettyLinks: true
+    enableSiteLastModified: true
     writeStubs: false
     copyAssets: true
     siteHierarchies:
         - root
     siteRootDir: docs
-    title: PKM Segundo Cerebro
-    description: Personal Knowledge Management
     seo:
-        title: PKM
-        description: Personal Knowledge Management
+        title: PKM Segundo Cerebro
+        description: Sistema PKM integrado com PARA, CODE e Zettelkasten
     github:
         enableEditLink: false
     duplicateNoteBehavior:

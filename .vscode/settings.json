@@ -8,6 +8,33 @@
     "source.fixAll.markdownlint": "explicit"
   },
 
+  // Configurações específicas para Dendron
+  "dendron.workspaceType": "CODE",
+  "dendron.enableRemoteVaultInit": true,
+  "dendron.defaultInsertHierarchy": "vault",
+  "dendron.autoCreateOnDefinition": true,
+  "dendron.enableFullHierarchyNoteTitle": false,
+
+  // Configurações para Codespaces
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.windows": "bash",
+  "remote.downloadExtensionsLocally": true,
+
+  // Performance para ambientes remotos
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/docs/**": true,
+    "**/.dendron.cache.json": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/docs": true
+  },
+
   // Configurações específicas para Markdown
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
@@ -19,7 +46,13 @@
       "other": "off"
     },
     "editor.rulers": [80, 120],
-    "editor.trimAutoWhitespace": true
+    "editor.trimAutoWhitespace": true,
+    "editor.unicodeHighlight.allowedChars": {
+      "→": true,
+      "←": true,
+      "↑": true,
+      "↓": true
+    }
   },
 
   // Configurações para outros tipos de arquivo
@@ -61,12 +94,26 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
 
-  // Markdownlint
+  // Markdownlint otimizado para PKM
   "markdownlint.config": {
     "MD032": true,
     "MD022": true,
-    "MD025": true,
-    "MD041": false
+    "MD025": false,
+    "MD041": false,
+    "MD013": false
+  },
+
+  // Configurações de Git para workspace
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // Configurações de workspace para PKM
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.md": "${capture}.backup,${capture}.tmp"
   }
 }

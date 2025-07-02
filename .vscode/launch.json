@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dendron: Launch Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/@dendronhq/dendron-cli/lib/bin/dendron-cli.js",
+      "args": ["dev", "run_server", "--port", "3005"],
+      "console": "integratedTerminal",
+      "env": {
+        "DENDRON_DEV": "true",
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug Current File",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

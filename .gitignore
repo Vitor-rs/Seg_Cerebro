@@ -134,3 +134,34 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Dendron specific files
+.dendron.port
+.dendron.ws
+
+# PKM specific - temporary/backup files
+*.backup
+*.tmp
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files (except VS Code settings we want to share)
+.idea/
+*.swp
+*.swo
+
+# Personal notes that shouldn't be shared
+vault/private/
+vault/**/private.*
+
+# Dendron cache and logs
+.dendron.cache.json
+dendron.*.log

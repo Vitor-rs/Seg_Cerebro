@@ -11,7 +11,7 @@ tags:
 
 ## Captura
 
-**Fonte:** 
+**Fonte:**
 **Data:** {{date}}
 
 ### Ideia/Insight
@@ -19,10 +19,12 @@ tags:
 ### Contexto
 
 ### Próximos Passos
+
 - [ ] Processar e organizar
 - [ ] Conectar com outras notas
 - [ ] Aplicar em projeto
 
 ## Conexões
-- [[zettel.]] - 
-- [[pkm.projetos.]] - 
+
+- [[zettel.]] -
+- [[pkm.projetos.]] -

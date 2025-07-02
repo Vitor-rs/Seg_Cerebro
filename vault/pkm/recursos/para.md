@@ -18,7 +18,7 @@ O sistema PARA organiza toda informação digital em 4 categorias baseadas em **
 
 ### 📁 Projects - Projetos
 
-**Esforços de curto prazo com resultado específico e prazo definido**
+> Esforços de curto prazo com resultado específico e prazo definido
 
 - [[projects.tcc]] - Trabalho de Conclusão de Curso
 - [[projects.portfolio-dev]] - Desenvolvimento do Portfólio
@@ -29,7 +29,7 @@ O sistema PARA organiza toda informação digital em 4 categorias baseadas em **
 
 ### 🎯 Areas - Áreas de Responsabilidade
 
-**Aspectos importantes da vida que requerem atenção contínua**
+> Aspectos importantes da vida que requerem atenção contínua
 
 - [[areas.study]] - Estudos e Aprendizado
 - [[areas.career]] - Carreira e Desenvolvimento Profissional
@@ -41,7 +41,7 @@ O sistema PARA organiza toda informação digital em 4 categorias baseadas em **
 
 ### 📚 Resources - Recursos
 
-**Tópicos de interesse contínuo para referência futura**
+> Tópicos de interesse contínuo para referência futura
 
 - [[resources.development]] - Desenvolvimento de Software
 - [[resources.technology]] - Tecnologias e Ferramentas
@@ -53,7 +53,7 @@ O sistema PARA organiza toda informação digital em 4 categorias baseadas em **
 
 ### 📦 Archives - Arquivo
 
-**Itens das outras categorias que não estão mais ativos**
+> Itens das outras categorias que não estão mais ativos
 
 - [[archives.projects-completed]] - Projetos Concluídos
 - [[archives.projects-paused]] - Projetos Pausados

@@ -2,17 +2,11 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Format Markdown with markdownlint",
+			"label": "Format Markdown",
 			"type": "shell",
-			"command": "npx",
-			"args": [
-				"markdownlint",
-				"--fix",
-				"${file}"
-			],
-			"group": "build",
-			"problemMatcher": [],
-			"isBackground": false
+			"command": "npm",
+			"args": ["run", "format"],
+			"group": "build"
 		}
 	]
 }

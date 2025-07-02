@@ -34,37 +34,44 @@ progress: 0%
 ## 🎯 Escopo e Entregas
 
 ### Principais Entregas
-- [ ] 
-- [ ] 
-- [ ] 
+
+- [ ]
+- [ ]
+- [ ]
 
 ### Critérios de Sucesso
-- [ ] 
-- [ ] 
-- [ ] 
+
+- [ ]
+- [ ]
+- [ ]
 
 ## 📅 Cronograma
 
 ### Marcos Importantes
+
 | Data | Marco | Status |
 |------|-------|--------|
 |      |       |        |
 
 ### Próximas Ações
-- [ ] 
-- [ ] 
-- [ ] 
+
+- [ ]
+- [ ]
+- [ ]
 
 ## 📚 Recursos e Referências
 
 ### Links Relacionados
-- 
+
+-
 
 ### Documentos de Apoio
-- 
+
+-
 
 ### Notas Relacionadas
-- 
+
+-
 
 ## 🤝 Colaboradores e Stakeholders
 

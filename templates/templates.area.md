@@ -28,11 +28,13 @@ review_frequency: monthly
 ## 📊 Padrões e Métricas
 
 ### Indicadores de Sucesso
-- 
-- 
-- 
+
+-
+-
+-
 
 ### Métricas de Acompanhamento
+
 | Métrica | Meta | Atual | Última Medição |
 |---------|------|-------|----------------|
 |         |      |       |                |
@@ -40,36 +42,44 @@ review_frequency: monthly
 ## 🔄 Atividades Recorrentes
 
 ### Tarefas Regulares
-- [ ] (Diária) 
-- [ ] (Semanal) 
-- [ ] (Mensal) 
-- [ ] (Trimestral) 
+
+- [ ] (Diária)
+- [ ] (Semanal)
+- [ ] (Mensal)
+- [ ] (Trimestral)
 
 ### Revisões Periódicas
-- **Próxima revisão:** 
+
+- **Próxima revisão:**
 - **Frequência:** {{fm.review_frequency}}
 
 ## 📁 Projetos Relacionados
 
 ### Projetos Ativos
-- 
+
+-
 
 ### Projetos Planejados
-- 
+
+-
 
 ### Projetos Arquivados
-- 
+
+-
 
 ## 📚 Recursos e Conhecimento
 
 ### Documentos Importantes
-- 
+
+-
 
 ### Ferramentas Utilizadas
-- 
+
+-
 
 ### Referências e Aprendizado
-- 
+
+-
 
 ## 📝 Notas e Reflexões
 
@@ -94,7 +104,7 @@ review_frequency: monthly
 
 **Área criada em:** {{fm.created}}
 **Última atualização:** {{fm.updated}}
-**Próxima revisão:** 
+**Próxima revisão:**
 
 ## Conexões
 <!-- Links para outras notas relacionadas -->

@@ -15,6 +15,7 @@ tags:
 O método **CODE** é um framework para transformar informação em conhecimento acionável através de 4 estágios:
 
 ## 📥 **C** - Capturar
+>
 > Coletar informações de qualquer fonte
 
 - **Zettelkasten**: Ideias atômicas e insights
@@ -25,6 +26,7 @@ O método **CODE** é um framework para transformar informação em conhecimento
 **Ferramentas**: Dendron quick capture, mobile notes, voice memos
 
 ## 🗂️ **O** - Organizar  
+>
 > Estruturar usando o sistema PARA
 
 - **Projetos**: Para resultados específicos
@@ -35,6 +37,7 @@ O método **CODE** é um framework para transformar informação em conhecimento
 **Princípio**: Organizar por acionabilidade, não por categoria
 
 ## 💎 **D** - Destilar
+>
 > Extrair insights e criar conexões
 
 - **Progressive Summarization**: Destacar o essencial
@@ -45,6 +48,7 @@ O método **CODE** é um framework para transformar informação em conhecimento
 **Resultado**: Conhecimento refinado e conexões valiosas
 
 ## 🚀 **E** - Expressar
+>
 > Criar e compartilhar conhecimento
 
 - **Escrita**: Posts, artigos, documentos
@@ -66,5 +70,6 @@ O método **CODE** é um framework para transformar informação em conhecimento
 | **Arquivo** | Todas | Histórico e contexto |
 
 ## 🔗 Conexões
+
 - [[pkm.recursos.para]] - Sistema de organização
 - [[pkm.zettelkasten]] - Método de captura atômica

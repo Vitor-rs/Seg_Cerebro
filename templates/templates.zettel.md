@@ -40,9 +40,9 @@ status: active
 
 ## Fonte Original
 
-**Fonte:** 
+**Fonte:**
 **Data:** {{fm.today}}
-**Contexto:** 
+**Contexto:**
 
 ## Desenvolvimento da Ideia
 
@@ -56,9 +56,11 @@ status: active
 **Revisado em:** {{fm.updated}}
 
 ## Tags Semânticas
-#conceito #ideia #conhecimento
+
+# conceito #ideia #conhecimento
 
 ## Navegação Zettelkasten
+
 - **Índice:** [[zettelkasten.index]]
 - **Conceitos relacionados:** Use os links acima
 - **Para criar nova nota:** [[zettelkasten.nova]]

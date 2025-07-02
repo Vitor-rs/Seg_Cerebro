@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "dendron.dendron",
+    "davidanson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "shd101wyy.markdown-preview-enhanced",
+    "ms-vscode.vscode-json",
+    "redhat.vscode-yaml",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "redhat.java",
+    "vscjava.vscode-java-pack",
+    "github.vscode-github-actions",
+    "github.copilot",
+    "github.copilot-chat",
+    "foam.foam-vscode",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-typescript",
+    "hookyqr.beautify"
+  ]
+}
