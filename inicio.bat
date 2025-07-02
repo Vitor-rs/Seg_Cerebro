@@ -1,0 +1,3 @@
+@echo off
+echo 🧠 Iniciando Segundo Cerebro...
+call "scripts\abrir-cerebro.bat"

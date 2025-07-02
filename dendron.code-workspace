@@ -7,6 +7,8 @@
     ],
     "settings": {
         "dendron.rootDir": "vault",
+        "dendron.workspaceType": "native",
+        "dendron.defaultInsertHierarchy": "pkm",
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets",
         "pasteImage.prefix": "./",

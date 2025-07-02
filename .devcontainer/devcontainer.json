@@ -1,0 +1,22 @@
+{
+    "name": "Segundo Cérebro - Dendron",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "dendron.dendron",
+                "yzhang.markdown-all-in-one"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install",
+    "postStartCommand": "echo '🧠 Segundo Cérebro pronto! Use: Ctrl+Shift+P → Dendron: Lookup'",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind",
+    "onCreateCommand": {
+        "open-workspace": "code dendron.code-workspace"
+    }
+}
