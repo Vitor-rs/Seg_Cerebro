@@ -9,3 +9,5 @@ created: 1704400000000
 ## Áreas Ativas
 
 - [[pkm.areas.estudos.programacao]] - Estudos em programação
+[[template.code.captura]]
+
