@@ -10,4 +10,3 @@ created: 1704400000000
 
 - [[pkm.areas.estudos.programacao]] - Estudos em programação
 [[template.code.captura]]
-
